@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castellanos Barber shop</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/fabicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header section -->
+    <section id="header">
+        <div class="nav-bar">
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <img src="assets/menu.png" alt="menu" class="menu" onclick="openmenu()">
+        </div>
+
+        <nav>
+            <ul class="nav-menu" id="sidemenu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CARACTERISTICAS</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+
+                <img src="assets/close.png" alt="close" class="close" onclick="closemenu()">
+            </ul>
+        </nav>
+
+        <div class="header-contents">
+            <h1>Castellanos Barber Shop</h1>
+            <p></p>
+            <div class="header-btn">
+                <a href="#"><span></span>AGENDA TU CITA</a>
+            </div>
+        </div>
+    </section>
+    <!-- Features section -->
+    <section id="feature">
+        <div class="title-text">
+            <p>CARACTERISTICAS</p>
+            <h2>PORQUE ELEGIRNOS?</h2>
+        </div>
+        <div class="feature-contents">
+            <div class="feature-text">
+                <div class="feature">
+                    <h3>Personal Experimentado</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Reserva Online Gratuita</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-check-to-slot"></i></span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Costo Acsesible</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-bangladeshi-taka-sign"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="assets/barber-man.jpg" alt="barber-man">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services">
+        <div class="title-text">
+            <p>SERVICIOS</p>
+            <h2>Proporcionamos Lo Mejor</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="service">
+                <img src="assets/pic-1.jpg" alt="pic-1">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>PEINADO DE CABELLO</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-2.jpg" alt="pic-2">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>RECORTE DE BARBA</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-3.jpg" alt="pic-3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>CORTE DE PELO</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-4.jpg" alt="pic-4">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>SHAMPOO SECO</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <!-- Footer Section -->
+    <section id="footer">
+        <img src="assets/footer-img.png" alt="footer-img" class="footer-img">
+        <div class="title-text">
+            <p>CONTACTO</p>
+            <h2>VISITANOS HOY</h2>
+        </div>
+        <div class="footer-content">
+            <div class="left">
+                <h4>HORARIO</h4>
+                <p><i class="fa-solid fa-clock"></i>DOMINGO-JUEVES - 10am a 8pm </p>
+                <p><i class="fa-solid fa-clock"></i>VIERNES Y SABADO - 9am a 8pm </p>
+            </div>
+            <div class="right">
+                <h4>Ponte En Contacto</h4>
+                <p>Colonia Durango (Tonala) calle principal #18<i class="fa-solid fa-location-dot"></i></p>
+                <p><i class="fa-solid fa-envelope"></i></p>
+                <p>9661229160<i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icon">
+                <a href="https://www.facebook.com/profile.php?id=100095180242043&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/castellanos_barber?igsh=bGJ4bjY0bGhvbjZo"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                <p>DERECHOS DE AUTOR "©HAITCAHE". HECHO POR  <a
+                        href="https://www.instagram.com/haitcahe_2009?igsh=MWYycjk2cGVqejR6ag==" target="_blank">HAITCAHE_2009</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-600px";
+        }
+    </script>
+</body>
+
+</html>
